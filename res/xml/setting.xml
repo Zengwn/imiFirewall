@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 防火墙设置 -->
+    <PreferenceCategory android:title="@string/set_firewall">
+        <CheckBoxPreference
+            android:key="Network"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="@string/set_network_firewall" />
+        <CheckBoxPreference
+            android:key="Spam"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="@string/set_spam_firewall" />
+        <CheckBoxPreference
+            android:key="Soft"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="@string/set_soft_firewall" />
+    </PreferenceCategory>
+    
+    <!-- 流量监听控制 -->
+    <PreferenceCategory android:title="@string/set_netcount" >
+        <CheckBoxPreference
+            android:enabled="true"
+            android:key="network_warn"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="@string/set_netcount_warn" />
+        
+        <EditTextPreference
+            android:dialogTitle="@string/set_netcount_3g"
+            android:key="mobile_warn"
+            android:defaultValue="100"
+            android:summary="点击输入流量上限阀值"
+            android:title="2G/3G流量控制" />
+        
+        <EditTextPreference
+            android:dialogTitle="@string/set_netcount_wifi"
+            android:key="wifi_warn"
+            android:defaultValue="1000"
+            android:summary="点击输入流量上限阀值"
+            android:title="wifi流量控制" />
+
+        <Preference
+            android:key="reset_data"
+            android:summary="清空流量统计数据，重新统计"
+            android:title="@string/set_netcount_clean" >
+        </Preference>
+    </PreferenceCategory>
+    
+    <!-- 联系我们 -->
+    <PreferenceCategory android:title="@string/set_about">
+        <Preference 
+            android:key="help"
+            android:summary="软件开发目的和联系方式"
+            android:title="@string/set_about_help"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

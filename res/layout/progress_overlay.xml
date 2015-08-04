@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="70.0dip"
+    android:background="@color/blue"
+    android:visibility="visible" >
+
+    <Button
+        android:id="@+id/hidden"
+        android:layout_width="25.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+    </Button>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_toLeftOf="@id/hidden" >
+
+        <ImageView
+            android:id="@+id/stub_image"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            android:layout_alignParentLeft="true" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/stub_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:textColor="@color/white"
+            android:layout_toRightOf="@id/stub_image"
+            android:singleLine="true" >
+        </TextView>
+
+        <ProgressBar
+            android:id="@+id/process_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/stub_image"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:indeterminate="true" >
+        </ProgressBar>
+    </RelativeLayout>
+
+</RelativeLayout>

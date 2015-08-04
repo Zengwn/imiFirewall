@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="entries_fontsize_preference">
+        <item>4 x 8 pixels</item>
+        <item>6 pt</item>
+        <item>7 pt</item>
+        <item>8 pt</item>
+        <item>9 pt</item>
+        <item>10 pt</item>
+        <item>12 pt</item>
+        <item>14 pt</item>
+        <item>16 pt</item>
+        <item>20 pt</item>
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_fontsize_preference">
+        <item>0</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>20</item>  
+    </string-array>
+
+    <string-array name="entries_color_preference">
+        <item>Black text on white</item>
+        <item>White text on black</item>
+        <item>White text on blue</item>  
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_color_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>  
+    </string-array>
+    
+    <string-array name="entries_controlkey_preference">
+        <item>Jog ball</item>
+        <item>\@ key</item>
+        <item>Left Alt key</item>
+        <item>Right Alt key</item>
+    </string-array>
+
+	<!-- Do not localize entryvalues -->
+    <string-array name="entryvalues_controlkey_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <!-- call_setting_array -->
+    <string-array name="entries_call_setting_preference">
+        <item>拒接陌生来电</item>
+        <item>拒接黑名单中的来电</item>
+        <item>只接听白名单</item>
+        <item>拒接所有来电</item>
+        <item>接听所有来电</item>
+    </string-array>
+    
+    <!-- call_setting_array_value -->
+    <string-array name="entryvalues_call_setting_preference">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <!-- call_back_array -->
+    <string-array name="entries_call_back_preference">
+        <item>电话正忙</item>
+        <item>电话已关机</item>
+        <item>电话已停机</item>
+    </string-array>
+    
+     <!-- call_back_array_value -->
+    <string-array name="entryvalues_call_back_preference">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
